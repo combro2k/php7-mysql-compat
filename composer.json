@@ -1,0 +1,25 @@
+{
+  "name": "combro2k/php7-mysql-compat",
+  "description": "A PHP 7 shim for ext/mysql",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Davey Shafik",
+      "email": "me@daveyshafik.com",
+      "homepage": "https://daveyshafik.com"
+    },
+    {
+      "name": "combro2k",
+      "email": "git@e-combined.nl",
+      "homepage": "https://github.com/combro2k"
+    }
+  ],
+  "require": {
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "files": [
+      "lib/autoload.php"
+    ]
+  }
+}
